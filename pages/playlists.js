@@ -2,9 +2,11 @@ import React from "react";
 import { NextSeo } from "next-seo";
 import {
   useColorMode,
+  SimpleGrid,
   Heading,
   Text,
   Flex,
+  Box,
   Stack,
   Link,
   Icon,
@@ -50,20 +52,34 @@ const Playlists = () => {
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
               Playlists
             </Heading>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Future Soul
-            </Text>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              beautiful piano music
-            </Text>
-            <iframe
-              src="https://open.spotify.com/embed/playlist/2T2SbLaLSllGzhdcQMbyTW"
-              width="300"
-              height="380"
-              frameborder="0"
-              allowtransparency="true"
-              allow="encrypted-media"
-            ></iframe>
+            <SimpleGrid columns={{sm:1, md:2}} spacing={10}>
+              <Box>
+                <Text color={secondaryTextColor[colorMode]} mb={4}>
+                  Future Soul
+                  <iframe
+                    src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
+                    width="300"
+                    height="380"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                  ></iframe>
+                </Text>
+              </Box>
+              <Box>
+                <Text color={secondaryTextColor[colorMode]} mb={4}>
+                  beautiful piano music
+                </Text>
+                <iframe
+                  src="https://open.spotify.com/embed/playlist/2T2SbLaLSllGzhdcQMbyTW"
+                  width="300"
+                  height="380"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </Box>
+            </SimpleGrid>
           </Flex>
         </Stack>
       </Container>
