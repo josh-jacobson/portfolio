@@ -64,11 +64,11 @@ const Music = () => {
             mt={8}
           >
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              As a solo artist, Josh has performed all over the world
-              including a headline US tour and music festival performances
-              including Brooklyn Electronic Music Festival and Splash House.
-              Josh has also opened for major dance acts including Petit
-              Biscuit and Louis the Child as direct support.
+              As a solo artist, Josh has performed all over the world including
+              a headline US tour and music festival performances including
+              Brooklyn Electronic Music Festival and Splash House. Josh has also
+              opened for major dance acts including Petit Biscuit and Louis the
+              Child as direct support.
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               Press / Radio
@@ -76,24 +76,22 @@ const Music = () => {
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Featured on tastemaker channels and press outlets including
-              Huffington Post, KCRW, Nest HQ, Indie Shuffle, Nylon, and
-              Earmilk.
+              Huffington Post, KCRW, Nest HQ, Indie Shuffle, Nylon, and Earmilk.
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               In-store play
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Starbucks Reserve, MAC, Abercrombie & Fitch,
-              Hollister, Joe and the Juice and other stores
+              Starbucks Reserve, MAC, Abercrombie & Fitch, Hollister, Joe and
+              the Juice and other stores
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               Playlist features
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Chill Vibes, Young & Free, Chill Tracks,
-              Classical New Releases, New Music Friday UK and many others.
-              Also featured in playlists by independent curators including
-              Nike, Chillhop and Pickup Music. 
+              Chill Vibes, Young & Free, Chill Tracks, Classical New Releases,
+              New Music Friday UK and many others. Also featured in playlists by
+              independent curators including Nike, Chillhop and Pickup Music.
             </Text>
           </Flex>
           <Flex

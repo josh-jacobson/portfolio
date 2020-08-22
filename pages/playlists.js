@@ -56,7 +56,8 @@ const Playlists = () => {
               <Box>
                 <Text color={secondaryTextColor[colorMode]} mb={4}>
                   Future Soul
-                  <iframe
+                </Text>
+                <iframe
                     src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
                     width="300"
                     height="380"
@@ -64,7 +65,6 @@ const Playlists = () => {
                     allowtransparency="true"
                     allow="encrypted-media"
                   ></iframe>
-                </Text>
               </Box>
               <Box>
                 <Text color={secondaryTextColor[colorMode]} mb={4}>
