@@ -30,7 +30,7 @@ const Index = () => {
             Hi, I’m Josh.
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            I compose music for film and tell stories with harmony, melody, and soundscapes.
+            I compose music and tell stories with harmony, melody, and soundscapes.
           </Text>
         </Flex>
         <Flex
