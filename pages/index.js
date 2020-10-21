@@ -32,7 +32,6 @@ const Index = () => {
           <Text color={secondaryTextColor[colorMode]}>
             I compose music for film and tell stories with harmony, melody, and soundscapes.
           </Text>
-          <img className="header-image" src="/static/images/treman1.jpg" />
         </Flex>
         <Flex
           flexDirection="column"
@@ -70,26 +69,26 @@ const Index = () => {
           <ProjectCard
             title="time lost but not forgotten"
             description="cinematic ambient album, with compositions for piano & strings"
-            href="/"
-            icon="nextjs"
+            href="https://open.spotify.com/album/5NeswvVgX7jAOHYe2Dhn50?si=9GEbEzVvSUyp7nEQvUsSXg"
+            image="/time_lost_200.jpg"
           />
           <ProjectCard
             title="OCEANS"
             description="Debut album, featuring collaborations with Carmody and Monogem"
-            href="/"
-            icon="jamstackfns"
+            href="https://open.spotify.com/album/4bAI6GPtSBaS9W1RrSocPk?si=iJCvIJdtSFGBqRmqjOeZzg"
+            image="/oceans_200.jpg"
           />
           <ProjectCard
             title="Juniper Drive"
             description="Treman piano single featured on Spotify's Classical New Releases playlist"
-            href="/"
-            icon="react2025"
+            href="https://open.spotify.com/track/5TqnYnaHDJpQnnt2zWzTiP?si=KOESEHG0Rh-_X7znfuCBLQ"
+            image="/juniper_200.jpg"
           />
           <ProjectCard
             title="Ty's List"
             description="Original music for an award-winning documentary film shown at Manhattan Film Festival and Beloit Film Festival"
             href="http://www.tyslist-themovie.com/"
-            icon="nextjs"
+            image="/tys_list_200.jpg"
           />
 
         </Flex>

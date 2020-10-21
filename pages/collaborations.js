@@ -55,12 +55,11 @@ const Collaborations = () => {
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Touring keyboardist for Banks, Delacey, Full Crate, Corey Harper
-              and more. Music director for Zeke Finn & Biako. Original string
-              quartet orchestration and live performances
+              and more. Recent live string arrangements, music direction & Ableton programming for artists including Zeke Finn, Phantogram, Sofia Carson, and Biako. 
+              
             </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Performed at major music festivals including Outside Lands and
-              Austin City Limits.
+              As a music director, I love building live shows from the ground up and helping artists achieve their vision! I specialize in Ableton programming, virtual instrument design, and creative live arrangements. (I'm also a software developer, and I find that this type of work especially engages all sides of my unique skillset!)
             </Text>
 
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
@@ -68,12 +67,12 @@ const Collaborations = () => {
             </Heading>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Ley Line, Black Gatsby, Carmody, India Carney, Raelee Nikole,
-              Lizzy McAlpine, BAYNK, Gigamesh
+              I've produced, or played keys on composed, or written Carmody, India Carney, Raelee Nikole, Ley Line, Black Gatsby, 
+              Lizzy McAlpine, BAYNK, Gigamesh, and many more. Have a listen below!
             </Text>
 
             <iframe
-              src="https://open.spotify.com/embed/playlist/2nVen6QtiLreSKwkWaaPjA"
+              src="https://open.spotify.com/embed/playlist/4AYGAq5C2Fed6qIssfiL13"
               width="300"
               height="380"
               frameborder="0"

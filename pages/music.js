@@ -82,7 +82,7 @@ const Music = () => {
               In-store play
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Starbucks Reserve, MAC, Abercrombie & Fitch, Hollister, Joe and
+              Starbucks Reserve, MAC, Abercrombie & Fitch, Hollister, Joe &
               the Juice and other stores
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
