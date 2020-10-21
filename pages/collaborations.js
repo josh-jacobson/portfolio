@@ -59,7 +59,7 @@ const Collaborations = () => {
               
             </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              As a music director, I love building live shows from the ground up and helping artists achieve their vision! I specialize in Ableton programming, virtual instrument design, and creative live arrangements. (I'm also a software developer, and I find that this type of work especially engages all sides of my unique skillset!)
+              As a music director, I love building live shows from the ground up and helping artists achieve their vision! I specialize in Ableton programming, virtual instrument design, and creative live arrangements. (I'm also a software developer, and I find that this type of work especially engages all sides of my skillset!)
             </Text>
 
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
@@ -67,7 +67,7 @@ const Collaborations = () => {
             </Heading>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              I've produced, or played keys on composed, or written Carmody, India Carney, Raelee Nikole, Ley Line, Black Gatsby, 
+              I've produced, played keys, or co-written on songs by Carmody, India Carney, Raelee Nikole, Ley Line, Black Gatsby, 
               Lizzy McAlpine, BAYNK, Gigamesh, and many more. Have a listen below!
             </Text>
 
