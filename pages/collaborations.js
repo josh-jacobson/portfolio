@@ -59,7 +59,7 @@ const Collaborations = () => {
               
             </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              As a music director, I love building live shows from the ground up and helping artists achieve their vision! I specialize in Ableton programming, virtual instrument design, and creative live arrangements. (I'm also a software developer, and I find that this type of work especially engages all sides of my skillset!)
+              As a music director, I love building live shows from the ground up and helping artists achieve their vision. I specialize in creative live arrangements, orchestration, Ableton programming and virtual instrument design.
             </Text>
 
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
