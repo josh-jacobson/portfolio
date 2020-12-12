@@ -11,7 +11,7 @@ import {
   InputRightElement,
   Icon,
 } from "@chakra-ui/core";
-
+import ProjectCard from "../components/ProjectCard";
 import Container from "../components/Container";
 
 const url = "https://joshjacobsonmusic.com/blog";
@@ -102,11 +102,20 @@ const Music = () => {
             mt={8}
           >
             <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-              Treman: piano music
+              Instrumental side projects:
             </Heading>
-            <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-              azula: lofi hip hop & instrumental beats
-            </Heading>
+            <ProjectCard
+            title="Treman"
+            description="Modern classical piano"
+            href="https://open.spotify.com/artist/7MnTSJ0nl9IdMRSq3vLdGP?si=qdHsyw8qRRu1OSZ_NQhlHQ"
+            image="/juniper_200.jpg"
+          />
+          <ProjectCard
+            title="azula"
+            description="Lofi hip hop & instrumental collaborations"
+            href="https://open.spotify.com/artist/1ExCrobB2mqThavegHEHeS?si=z3XhuKqMRvSCYO2EomMe8A"
+            image="/beginnings_200.jpeg"
+          />
           </Flex>
         </Stack>
       </Container>
