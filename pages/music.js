@@ -76,7 +76,7 @@ const Music = () => {
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Featured on tastemaker channels and press outlets including
-              Huffington Post, KCRW, Nest HQ, Indie Shuffle, Nylon, and Earmilk.
+              Huffington Post, KCRW, Rinse FM London, Nest HQ, Indie Shuffle, Nylon, and Earmilk.
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               In-store play
@@ -91,7 +91,7 @@ const Music = () => {
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Chill Vibes, Young & Free, Chill Tracks, Classical New Releases,
               New Music Friday UK and many others. Also featured in playlists by
-              independent curators including Nike, Chillhop and Pickup Music.
+              independent curators including ChilledCow, Nike, Chillhop and Pickup Music.
             </Text>
           </Flex>
           <Flex
