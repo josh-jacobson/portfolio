@@ -21,7 +21,7 @@ const ProjectCard = ({ title, description, href, image }) => {
   };
 
   return (
-    <div class="project-card">
+    <div className="project-card">
       <Link
         mb={4}
         href={href}

@@ -75,7 +75,7 @@ const Collaborations = () => {
               src="https://open.spotify.com/embed/playlist/4AYGAq5C2Fed6qIssfiL13"
               width="300"
               height="380"
-              frameborder="0"
+              frameBorder="0"
               allowtransparency="true"
               allow="encrypted-media"
             ></iframe>

@@ -61,7 +61,7 @@ const Playlists = () => {
                     src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
                     width="300"
                     height="380"
-                    frameborder="0"
+                    frameBorder="0"
                     allowtransparency="true"
                     allow="encrypted-media"
                   ></iframe>
@@ -74,7 +74,7 @@ const Playlists = () => {
                   src="https://open.spotify.com/embed/playlist/2T2SbLaLSllGzhdcQMbyTW"
                   width="300"
                   height="380"
-                  frameborder="0"
+                  frameBorder="0"
                   allowtransparency="true"
                   allow="encrypted-media"
                 ></iframe>
