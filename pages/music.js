@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NextSeo } from "next-seo";
 import {
   useColorMode,
@@ -24,6 +24,14 @@ const Music = () => {
     light: "gray.700",
     dark: "gray.400",
   };
+
+  // Load in the Simple Goods script (just once, empty dependency array for componentDidMount behavior)
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://app-cdn.simplegoods.co/assets/external/embed-485d19e15c0d820b38f2851a2490d28cacbb489e8ec728bb882843aaf50c14f0.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
 
   return (
     <>
