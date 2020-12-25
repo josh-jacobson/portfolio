@@ -53,14 +53,14 @@ const Nav = () => {
             />
         </NextLink>
         <Box>
-          <NextLink href="/scoring" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Film Scoring
-            </Button>
-          </NextLink>
           <NextLink href="/music" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Original Music
+            </Button>
+          </NextLink>
+          <NextLink href="/scoring" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Film Scoring
             </Button>
           </NextLink>
           <NextLink href="/collaborations" passHref>
@@ -71,6 +71,11 @@ const Nav = () => {
           <NextLink href="/playlists" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Playlists
+            </Button>
+          </NextLink>
+          <NextLink href="/shop" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Shop
             </Button>
           </NextLink>
           <IconButton
