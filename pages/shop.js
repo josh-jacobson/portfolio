@@ -91,7 +91,12 @@ const Music = () => {
             <a
               href="https://app.simplegoods.co/i/YXWQOJXA"
               className="simple-goods-btn"
-              style={{ margin: "20px", backgroundColor: "#2ab2fe" }}
+              style={{
+                margin: "20px",
+                backgroundColor: "#2ab2fe",
+                padding: "12px 34px",
+                borderRadius: "3px",
+              }}
             >
               Buy 'Six Mile Creek' Sheet Music
             </a>
@@ -112,7 +117,12 @@ const Music = () => {
             <a
               href="https://app.simplegoods.co/i/YXWQOJXA"
               className="simple-goods-btn"
-              style={{ margin: "20px", backgroundColor: "#2ab2fe" }}
+              style={{
+                margin: "20px",
+                backgroundColor: "#2ab2fe",
+                padding: "12px 34px",
+                borderRadius: "3px",
+              }}
             >
               Buy 'Return' Sheet Music
             </a>
