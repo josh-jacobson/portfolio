@@ -72,9 +72,44 @@ const Music = () => {
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Sheet music for select piano compositions available now. Secure
               checkout provided by Stripe, and pdf's are delivered instantly by
-              email as soon as your order is placed. Virtual instruments, sample
-              packs and other merch coming soon!
+              email as soon as your order is placed.
             </Text>
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              All future updates (including new versions of sheet music and updated VST/AU plugins) will also be delivered automatically to your email address, as provided during checkout.
+               </Text>
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              Virtual instruments, sample
+              packs and other merch coming soon!
+              </Text>
+
+            <Heading
+              letterSpacing="tight"
+              mb={4}
+              size="xl"
+              fontWeight={700}
+              marginTop="30px"
+            >
+              Return
+            </Heading>
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              Sheet music for "Return", a composition for solo piano originally heard on the ep "First Light". Four pages, pdf format (print or view on your iPad). Fully notated, for all ability levels.
+            </Text>
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              For beginner pianists and those with smaller hands, I recommend rolling larger chords upward from the bass notes, and using the pedal to your advantage. Enjoy, and feel free to reach out by email for support of any kind while you're learning the music!
+            </Text>
+            <a
+              href="https://app.simplegoods.co/i/IBYKKBPV"
+              className="simple-goods-btn"
+              style={{
+                margin: "20px",
+                backgroundColor: "#2ab2fe",
+                padding: "12px 34px",
+                borderRadius: "3px",
+              }}
+            >
+              Buy 'Return' Sheet Music
+            </a>
+
 
             <Heading
               letterSpacing="tight"
@@ -89,7 +124,7 @@ const Music = () => {
               Piano composition featured on Sonder House Recollections Vol. 5
             </Text>
             <a
-              href="https://app.simplegoods.co/i/YXWQOJXA"
+              href="#"
               className="simple-goods-btn"
               style={{
                 margin: "20px",
@@ -98,33 +133,7 @@ const Music = () => {
                 borderRadius: "3px",
               }}
             >
-              Buy 'Six Mile Creek' Sheet Music
-            </a>
-
-            <Heading
-              letterSpacing="tight"
-              mb={4}
-              size="xl"
-              fontWeight={700}
-              marginTop="30px"
-            >
-              Return
-            </Heading>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Piano composition on First Light EP, released on Joshua Tree
-              Records
-            </Text>
-            <a
-              href="https://app.simplegoods.co/i/YXWQOJXA"
-              className="simple-goods-btn"
-              style={{
-                margin: "20px",
-                backgroundColor: "#2ab2fe",
-                padding: "12px 34px",
-                borderRadius: "3px",
-              }}
-            >
-              Buy 'Return' Sheet Music
+              Coming soon!
             </a>
           </Flex>
         </Stack>
