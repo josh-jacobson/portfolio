@@ -38,9 +38,7 @@ const Error = () => {
             451 – Unavailable For Legal Reasons
           </Heading>
           <Text color={secondaryTextColor[colorMode]} my={4}>
-            Why show a generic 404 when I can make it sound mysterious? It seems
-            you've found something that used to exist, or you spelled something
-            wrong. I'm guessing you spelled something wrong. Can you double
+            I'm guessing you spelled something wrong. Can you double
             check that URL?
           </Text>
           <NextLink href="/" passHref>
