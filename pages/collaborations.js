@@ -54,21 +54,21 @@ const Collaborations = () => {
               Live
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Touring keyboardist for Banks, Delacey, Full Crate, Corey Harper
-              and more. Recent live string arrangements, music direction & Ableton programming for artists including Zeke Finn, Phantogram, Sofia Carson, and Biako. 
-              
+              Most recently I've been the live keyboardist and bandleader for Alec Benjamin, also singing and running playback on tour. We played The Tonight Show in 2021 and have many other TV and festival appearances coming up in 2022.
             </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              As a music director, I love building live shows from the ground up and helping artists achieve their vision. I specialize in creative live arrangements, orchestration, Ableton programming and virtual instrument design.
+              As a music director, I love building shows from the ground up and helping artists bring their creative vision into a live context. I specialize in creative live arrangements, orchestration, Ableton programming and virtual instrument design. 
             </Text>
-
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              Recent clients include Phantogram, Sofia Carson, Biako, Zeke Finn, Delacey, Kyle Dion, Corey Harper, Full Crate, and many more.
+            </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               Studio
             </Heading>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              I've produced, played keys, or co-written on songs by Carmody, India Carney, Raelee Nikole, Ley Line, Black Gatsby, 
-              Lizzy McAlpine, BAYNK, Gigamesh, and many more. Have a listen below!
+              I've produced, played keys, or co-written on songs by artists including Carmody, India Carney, Raelee Nikole, 
+              Lizzy McAlpine, BAYNK, Tim Atlas and Gigamesh. Have a listen below:
             </Text>
 
             <iframe
