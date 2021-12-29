@@ -60,7 +60,7 @@ const Collaborations = () => {
               As a music director, I love building shows from the ground up and helping artists bring their creative vision into a live context. I specialize in creative live arrangements, orchestration, Ableton programming and virtual instrument design. 
             </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Recent clients include Phantogram, Sofia Carson, Biako, Zeke Finn, Delacey, Kyle Dion, Corey Harper, Full Crate, and many more.
+              Recent clients: Phantogram, Sofia Carson, Biako, Zeke Finn, Delacey, Kyle Dion, Corey Harper, Full Crate
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               Studio
