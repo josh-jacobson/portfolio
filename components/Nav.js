@@ -60,7 +60,7 @@ const Nav = () => {
           </NextLink>
           <NextLink href="/scoring" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
-              Film Scoring
+              Scoring
             </Button>
           </NextLink>
           <NextLink href="/collaborations" passHref>
