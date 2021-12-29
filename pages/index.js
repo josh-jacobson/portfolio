@@ -50,7 +50,7 @@ const Index = () => {
             My favorite color is blue. I love being outside and can usually be found skiing, surfing, or hugging a tree somewhere when I'm not in the studio.
           </Text>
           <Text color={secondaryTextColor[colorMode]} mb={4}>
-            In a scoring context, I endeavor to bring an intuitive feel and thoughtful minimalism to every project, collaborating closely with the director to bring their vision to life. Having worked extensively as a session player, producer, songwriter, music director and touring keyboardist, I'm now increasingly focused on scoring original films and series. If you have a project coming up and think my music could be a good fit, I'd love to hear from you.
+            In a scoring context, I endeavor to bring an intuitive feel and thoughtful minimalism to every project, collaborating closely to bring the vision to life. Having worked extensively as a session player, producer, songwriter, music director and touring keyboardist, I'm now increasingly focused on composing original music and scoring for film & TV. If you have a project coming up and think my music could be a good fit, I'd love to hear from you.
           </Text>
 
 
