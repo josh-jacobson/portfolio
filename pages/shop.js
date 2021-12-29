@@ -102,16 +102,9 @@ const Music = () => {
               Piano composition featured on Sonder House Recollections Vol. 5
             </Text>
             <a
-              href="#"
-              className="simple-goods-btn"
-              style={{
-                margin: "20px",
-                backgroundColor: "#2ab2fe",
-                padding: "12px 34px",
-                borderRadius: "3px",
-              }}
+              className="gumroad-button"
             >
-              Coming soon!
+              Coming soon
             </a>
           </Flex>
         </Stack>
