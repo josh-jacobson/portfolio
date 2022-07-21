@@ -30,33 +30,10 @@ const Index = () => {
             Hi, I’m Josh.
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            I compose music and tell stories with harmony, melody, and soundscapes.
+            I compose music and tell stories with harmony, melody, and sound design.
           </Text>
         </Flex>
-        <Flex
-          flexDirection="column"
-          justifyContent="flex-start"
-          alignItems="flex-start"
-          maxWidth="700px"
-          mt={8}
-        >
-          <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-            About
-          </Heading>
-          <Text color={secondaryTextColor[colorMode]} mb={4}>
-            I grew up in Ithaca, NY as part of a musical family, starting piano lessons at five and learning several instruments before moving into composition and electronic production. I'm now based in Los Angeles, but the sound and feeling of upstate NY, the quiet forests, serene gorges and lakes, still resonate distinctly through all of my music.
-          </Text>
-          <Text color={secondaryTextColor[colorMode]} mb={4}>
-            My favorite color is blue. I love being outside and can usually be found skiing, surfing, or hugging a tree somewhere when I'm not in the studio.
-          </Text>
-          <Text color={secondaryTextColor[colorMode]} mb={4}>
-            In a scoring context, I endeavor to bring an intuitive feel and thoughtful minimalism to every project, collaborating closely to bring the vision to life. Having worked extensively as a session player, producer, songwriter, music director and touring keyboardist, I'm now increasingly focused on composing original music and scoring for film & TV. If you have a project coming up and think my music could be a good fit, I'd love to hear from you.
-          </Text>
 
-
-
-
-        </Flex>
         <Flex
           flexDirection="column"
           justifyContent="flex-start"
@@ -80,7 +57,7 @@ const Index = () => {
           />
           <ProjectCard
             title="Juniper Drive"
-            description="Treman piano single featured on Spotify's Classical New Releases playlist"
+            description="Piano composition featured on Spotify's Classical New Releases playlist"
             href="https://open.spotify.com/track/5TqnYnaHDJpQnnt2zWzTiP?si=KOESEHG0Rh-_X7znfuCBLQ"
             image="/juniper_200.jpg"
           />
@@ -90,6 +67,31 @@ const Index = () => {
             href="http://www.tyslist-themovie.com/"
             image="/tys_list_200.jpg"
           />
+
+        </Flex>
+
+        <Flex
+          flexDirection="column"
+          justifyContent="flex-start"
+          alignItems="flex-start"
+          maxWidth="700px"
+          mt={8}
+        >
+          <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
+            About
+          </Heading>
+          <Text color={secondaryTextColor[colorMode]} mb={4}>
+            I grew up in Ithaca, NY as part of a musical family, starting piano lessons at five and learning several instruments before moving into composition and electronic production. I'm now based in Los Angeles, but the sound and feeling of upstate NY, the quiet forests, serene gorges and lakes, still resonate distinctly through all of my music.
+          </Text>
+          <Text color={secondaryTextColor[colorMode]} mb={4}>
+            My favorite color is blue. I love being outside and can usually be found skiing, surfing, or hugging a tree somewhere when I'm not in the studio.
+          </Text>
+          <Text color={secondaryTextColor[colorMode]} mb={4}>
+            As a composer and producer, I endeavor to bring an intuitive feel and thoughtful minimalism to everything I create. Collaboration always comes first, and I tend to take on a slightly role in every project based on what's needed. If you have a film, production or recording project coming up and think my music could be a good fit, I'd love to hear from you.
+          </Text>
+
+
+
 
         </Flex>
       </Stack>

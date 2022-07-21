@@ -52,7 +52,7 @@ const Collaborations = () => {
             </Heading>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              I produce, write, record keys parts and occasionally mix and master records in collaboration with a wide variety of artists.
+              I produce, write, record piano & synths and occasionally mix and master records in collaboration with a wide variety of artists.
             </Text>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
@@ -68,7 +68,7 @@ const Collaborations = () => {
             </Text>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Have a listen below:
+              This playlist features some of my collaborative work:
             </Text>
 
             <iframe
