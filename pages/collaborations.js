@@ -64,7 +64,7 @@ const Collaborations = () => {
             </Text>
             
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              As a live keyboardist and singer, I've gotten to perform all over the world including major European festivals and Coachella, Outside Lands, a headline set at the Seoul Jazz Festival and appearances on several TV shows including The Tonight Show and Jimmy Kimmel Live.
+              As a live keyboardist and singer, I've gotten to perform all over the world including major European festivals and Coachella, Outside Lands, Seoul Jazz Festival and appearances on several TV shows including The Tonight Show and Jimmy Kimmel Live.
             </Text>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
