@@ -81,13 +81,13 @@ const Index = () => {
             About
           </Heading>
           <Text color={secondaryTextColor[colorMode]} mb={4}>
-            I grew up in Ithaca, NY as part of a musical family, starting piano lessons at five and learning several instruments before moving into composition and electronic production. I'm now based in Los Angeles, but the sound and feeling of upstate NY, the quiet forests, serene gorges and lakes, still resonate distinctly through all of my music.
+            I grew up in Ithaca, NY as part of a musical family, starting piano lessons at five and learning several instruments before moving into composition and electronic production. I'm now based in Los Angeles, but the sound and where I grew up, the quiet forests, serene gorges and lakes, still resonate distinctly through all of my music.
           </Text>
           <Text color={secondaryTextColor[colorMode]} mb={4}>
             My favorite color is blue. I love being outside and can usually be found skiing, surfing, or hugging a tree somewhere when I'm not in the studio.
           </Text>
           <Text color={secondaryTextColor[colorMode]} mb={4}>
-            As a composer and producer, I endeavor to bring an intuitive feel and thoughtful minimalism to everything I create. Collaboration always comes first, and I tend to take on a slightly role in every project based on what's needed. If you have a film, production or recording project coming up and think my music could be a good fit, I'd love to hear from you.
+            As a composer and producer, I endeavor to bring an intuitive feel and thoughtful minimalism to everything I create. Collaboration always comes first, and I tend to take on a slightly different role in every project based on what's needed. If you have a film, production or recording project coming up and think my music could be a good fit, I'd love to hear from you.
           </Text>
 
 
