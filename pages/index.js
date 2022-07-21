@@ -67,10 +67,10 @@ const Index = () => {
             Recent Projects
           </Heading>
           <ProjectCard
-            title="time lost but not forgotten"
-            description="cinematic ambient album, with compositions for piano & strings"
-            href="https://open.spotify.com/album/5NeswvVgX7jAOHYe2Dhn50?si=9GEbEzVvSUyp7nEQvUsSXg"
-            image="/time_lost_200.jpg"
+            title="Devil Doesn't Bargain - Acoustic"
+            description="Piano version of a song by Alec Benjamin"
+            href="https://open.spotify.com/track/5iRlgbAfme5SYmUPYnZs6y?si=9d0138227fd049ac"
+            image="/devil_200.jpg"
           />
           <ProjectCard
             title="OCEANS"

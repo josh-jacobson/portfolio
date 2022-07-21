@@ -12,7 +12,7 @@ import {
 
 import Container from "../components/Container";
 
-const url = "https://joshjacobsonmusic.com/about";
+const url = "https://joshjacobsonmusic.com/collaborations";
 const title = "Josh Jacobson | Collaborations";
 
 const Collaborations = () => {
@@ -50,25 +50,25 @@ const Collaborations = () => {
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
               Collaborations
             </Heading>
-            <Heading size="md" as="h3" mb={2} fontWeight="medium">
-              Live
-            </Heading>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Most recently I've been the live keyboardist and bandleader for Alec Benjamin, also singing and running playback on tour. We played The Tonight Show in 2021 and have many other TV and festival appearances coming up in 2022.
-            </Text>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              As a music director, I love building shows from the ground up and helping artists bring their creative vision into a live context. I specialize in creative live arrangements, orchestration, Ableton programming and virtual instrument design. 
-            </Text>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Recent clients: Phantogram, Sofia Carson, Biako, Zeke Finn, Delacey, Kyle Dion, Corey Harper, Full Crate
-            </Text>
-            <Heading size="md" as="h3" mb={2} fontWeight="medium">
-              Studio
-            </Heading>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              I've produced, played keys, or co-written on songs by artists including Carmody, India Carney, Raelee Nikole, 
-              Lizzy McAlpine, BAYNK, Tim Atlas and Gigamesh. Have a listen below:
+              I produce, write, record keys parts and occasionally mix and master records in collaboration with a wide variety of artists.
+            </Text>
+
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              Some of my most releases are with artists including Alec Benjamin, Lizzy McAlpine, BAYNK, Tim Atlas, Dillan Witherow and Delaney Bailey. 
+            </Text>
+
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              I've also worked on arrangements and string orchestration for touring shows and live installations, and provided music direction for artists including Phantogram, Zeke Finn and Sofia Carson.
+            </Text>
+            
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              As a live keyboardist and singer, I've gotten to perform all over the world including major European festivals and Coachella, Outside Lands, a headline set at the Seoul Jazz Festival and appearances on several TV shows including The Tonight Show and Jimmy Kimmel Live.
+            </Text>
+
+            <Text color={secondaryTextColor[colorMode]} mb={4}>
+              Have a listen below:
             </Text>
 
             <iframe
