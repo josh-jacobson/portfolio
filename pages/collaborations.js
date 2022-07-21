@@ -56,7 +56,7 @@ const Collaborations = () => {
             </Text>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Some of my most releases are with artists including Alec Benjamin, Lizzy McAlpine, BAYNK, Tim Atlas, Dillan Witherow and Delaney Bailey. 
+              Some of my most recent releases are with artists including Alec Benjamin, Lizzy McAlpine, BAYNK, Tim Atlas, Dillan Witherow and Delaney Bailey. 
             </Text>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
