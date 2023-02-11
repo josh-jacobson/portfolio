@@ -68,7 +68,7 @@ const Collaborations = () => {
             </Text>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              This playlist features some of my collaborative work:
+              This playlist features my discography including collaborative work:
             </Text>
 
             <iframe

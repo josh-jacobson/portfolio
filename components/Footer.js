@@ -1,17 +1,23 @@
 import React from 'react';
 import { Flex, Link, IconButton } from '@chakra-ui/core';
 
-const spotifyFollow = '<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:3KpCBwmIHMdBD3GzV1xNtE&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
-
-const iframe =  () => {
-  return {
-    __html: spotifyFollow
-  }
-};
-
 const Footer = () => (
   <Flex align="center" mb={4} direction="column">
     <div>
+      <Link
+        href="https://open.spotify.com/artist/3KpCBwmIHMdBD3GzV1xNtE?si=nfgF1g0mSlShupyOik4GKg"
+        title="Spotify"
+        icon="spotify"
+        isExternal
+      >
+        <IconButton
+          aria-label="Spotify"
+          icon="spotify"
+          size="lg"
+          color="gray.500"
+          variant="ghost"
+        />
+      </Link>
       <Link
         href="https://www.instagram.com/joshjacobsongs/"
         title="Instagram"
@@ -48,7 +54,6 @@ const Footer = () => (
           variant="ghost"
         />
       </Link>
-      <div dangerouslySetInnerHTML={ iframe() } />
     </div>
   </Flex>
 );

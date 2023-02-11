@@ -53,25 +53,26 @@ const Playlists = () => {
               Playlists
             </Heading>
             <SimpleGrid columns={{sm:1, md:2}} spacing={10}>
-              <Box>
-                <Text color={secondaryTextColor[colorMode]} mb={4}>
-                  Future Soul
-                </Text>
-                <iframe
-                    src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
-                    width="300"
-                    height="380"
-                    frameBorder="0"
-                    allowtransparency="true"
-                    allow="encrypted-media"
-                  ></iframe>
-              </Box>
+
               <Box>
                 <Text color={secondaryTextColor[colorMode]} mb={4}>
                   beautiful piano music
                 </Text>
                 <iframe
                   src="https://open.spotify.com/embed/playlist/2T2SbLaLSllGzhdcQMbyTW"
+                  width="300"
+                  height="380"
+                  frameBorder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </Box>
+              <Box>
+                <Text color={secondaryTextColor[colorMode]} mb={4}>
+                  Future Soul
+                </Text>
+                <iframe
+                  src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
                   width="300"
                   height="380"
                   frameBorder="0"
