@@ -10,3 +10,5 @@ and hosted on Vercel at joshjacobsonmusic.com. Shouts out to Lee Robinson for in
 
 Local server on port 3000:
 npx next dev
+
+Deployment: Vercel
