@@ -27,7 +27,7 @@ const Index = () => {
           maxWidth="700px"
         >
           <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-            Hi, I’m Josh.
+            Josh Jacobson
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
             I compose music and tell stories with harmony, melody, and sound design.
