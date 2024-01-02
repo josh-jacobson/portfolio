@@ -69,7 +69,7 @@ const Playlists = () => {
               </Box>
               <Box>
                 <Text color={secondaryTextColor[colorMode]} mb={4}>
-                  Future Soul
+                  beautiful dance music
                 </Text>
                 <iframe
                   src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"

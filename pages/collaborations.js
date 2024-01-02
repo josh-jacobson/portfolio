@@ -52,15 +52,11 @@ const Collaborations = () => {
             </Heading>
 
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              I produce, write, record piano & synths and occasionally mix and master records in collaboration with a wide variety of artists.
+              I produce, write, record piano & synths and occasionally master records in collaboration with a wide variety of artists. Some of my most recent releases are with Laufey, Alec Benjamin, Lizzy McAlpine, BAYNK, Tim Atlas, Jonah Kagen and Delaney Bailey.
             </Text>
-
+            
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Some of my most recent releases are with artists including Alec Benjamin, Lizzy McAlpine, BAYNK, Tim Atlas, Dillan Witherow and Delaney Bailey. 
-            </Text>
-
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              I've also worked on arrangements and string orchestration for touring shows and live installations, and provided music direction for artists including Phantogram, Zeke Finn and Sofia Carson.
+              As a composer and producer, I endeavor to bring an intuitive feel and thoughtful minimalism to everything I create. Collaboration always comes first, and I tend to take on a slightly different role in every project based on what's needed. If you have a film, production or recording project coming up and think my music could be a good fit, I'd love to hear from you.
             </Text>
             
             <Text color={secondaryTextColor[colorMode]} mb={4}>

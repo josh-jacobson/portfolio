@@ -76,7 +76,7 @@ const Music = () => {
                 Listen
               </Heading>
               <Text color={secondaryTextColor[colorMode]} mb={4}>
-                Available on all music services including Spotify, Tidal and Apple Music. Listen on Spotify here:
+                Available on all streaming services and Bandcamp. Listen on Spotify here:
               </Text>
               <SimpleGrid columns={{ sm: 1, md: 2 }} spacing={10}>
                 <Box>
@@ -102,16 +102,6 @@ const Music = () => {
               </SimpleGrid>
             </Flex>
 
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              <br></br>Josh's music has earned worldwide attention, with well over 70 million Spotify streams and support from major tastemakers and radio stations including KCRW and London’s Rinse FM. He's also contributed production, writing, and keyboards to recent releases by Alec Benjamin, BAYNK, Tim Atlas, Lizzy McAlpine and Delaney Bailey, and composed original music for Mazda, Roland, and a documentary featured in the Manhattan Film Festival. 
-            </Text>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              As a solo artist, Josh has performed all over the world including
-              a headline US tour and music festival performances including
-              Brooklyn Electronic Music Festival and Splash House. Josh has also
-              opened for major dance acts including Petit Biscuit and Louis the
-              Child as direct support. In collaboration with other artists, Josh has also performed at Coachella, Outside Lands and major European festivals, and appearing on TV shows ranging all the way from The Tonight Show and Jimmy Kimmel to Good Morning America and Ellen.
-            </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Here are just a few of the outlets that have featured Josh's music:
             </Text>
