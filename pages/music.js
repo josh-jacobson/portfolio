@@ -55,7 +55,7 @@ const Music = () => {
             maxWidth="700px"
           >
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-              Original Music
+              Listen
             </Heading>
           </Flex>
           <Flex
@@ -72,9 +72,6 @@ const Music = () => {
               alignItems="flex-start"
               maxWidth="700px"
             >
-              <Heading size="md" as="h3" mb={2} fontWeight="medium">
-                Listen
-              </Heading>
               <Text color={secondaryTextColor[colorMode]} mb={4}>
                 Available on all streaming services and Bandcamp. Listen on Spotify here:
               </Text>
@@ -101,31 +98,6 @@ const Music = () => {
                 </Box>
               </SimpleGrid>
             </Flex>
-
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Here are just a few of the outlets that have featured Josh's music:
-            </Text>
-            <Heading size="md" as="h3" mb={2} fontWeight="medium">
-              Press / Radio
-            </Heading>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Huffington Post, KCRW, Rinse FM London, Nest HQ, Indie Shuffle, Nylon, and Earmilk.
-            </Text>
-            <Heading size="md" as="h3" mb={2} fontWeight="medium">
-              In-store play
-            </Heading>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Starbucks Reserve, MAC, Abercrombie & Fitch, Hollister, Joe &
-              the Juice and other stores
-            </Text>
-            <Heading size="md" as="h3" mb={2} fontWeight="medium">
-              Spotify editorial playlists
-            </Heading>
-            <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Peaceful Piano, Classical New Releases,New Music Friday UK, Chill Vibes, Young & Free, Chill Tracks, 
-              Calm Vibes, and many others. Also featured in playlists by
-              independent curators including ChilledCow, Nike, Chillhop and Pickup Music.
-            </Text>
           </Flex>
           <Flex
             flexDirection="column"

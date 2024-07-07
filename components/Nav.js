@@ -55,7 +55,7 @@ const Nav = () => {
         <Box>
           <NextLink href="/music" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
-              Original Music
+              Listen
             </Button>
           </NextLink>
           <NextLink href="/collaborations" passHref>
