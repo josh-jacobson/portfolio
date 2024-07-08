@@ -47,7 +47,7 @@ const Footer = () => (
         />
       </Link>
       <Link
-        href="https://www.instagram.com/joshjacobsongs/"
+        href="https://www.tiktok.com/@joshjacobsongs"
         title="TikTok"
         icon="tiktok"
         isExternal
