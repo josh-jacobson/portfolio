@@ -12,6 +12,7 @@ import {
   InputGroup,
   InputRightElement,
   Icon,
+  Link
 } from "@chakra-ui/core";
 import ProjectCard from "../components/ProjectCard";
 import Container from "../components/Container";
@@ -106,21 +107,28 @@ const Music = () => {
             maxWidth="700px"
             mt={8}
           >
-            <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
+            <Link
+              href="https://joshjacobson.bandcamp.com/"
+              title="bandcamp"
+              icon="bandcamp"
+              isExternal
+            >Listen on Bandcamp</Link>
+
+            {/* <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
               Instrumental side projects:
             </Heading>
             <ProjectCard
-            title="Treman"
-            description="Modern classical piano"
-            href="https://open.spotify.com/artist/7MnTSJ0nl9IdMRSq3vLdGP?si=qdHsyw8qRRu1OSZ_NQhlHQ"
-            image="/juniper_200.jpg"
-          />
-          <ProjectCard
-            title="azula"
-            description="Lofi hip hop & instrumental collaborations"
-            href="https://open.spotify.com/artist/1ExCrobB2mqThavegHEHeS?si=z3XhuKqMRvSCYO2EomMe8A"
-            image="/beginnings_200.jpeg"
-          />
+              title="Treman"
+              description="Modern classical piano"
+              href="https://open.spotify.com/artist/7MnTSJ0nl9IdMRSq3vLdGP?si=qdHsyw8qRRu1OSZ_NQhlHQ"
+              image="/juniper_200.jpg"
+            />
+            <ProjectCard
+              title="azula"
+              description="Lofi hip hop & instrumental collaborations"
+              href="https://open.spotify.com/artist/1ExCrobB2mqThavegHEHeS?si=z3XhuKqMRvSCYO2EomMe8A"
+              image="/beginnings_200.jpeg"
+            /> */}
           </Flex>
         </Stack>
       </Container>

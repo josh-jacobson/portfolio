@@ -58,19 +58,24 @@ const Nav = () => {
               Listen
             </Button>
           </NextLink>
-          <NextLink href="/collaborations" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Collaborations
-            </Button>
-          </NextLink>
           <NextLink href="/playlists" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Playlists
             </Button>
           </NextLink>
+          <NextLink href="/tour" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Tour
+            </Button>
+          </NextLink>
           <NextLink href="/shop" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Shop
+            </Button>
+          </NextLink>
+          <NextLink href="http://eepurl.com/gG6ezj" passHref>
+            <Button as="a" variant="ghost" p={[1, 4]}>
+              Subscribe
             </Button>
           </NextLink>
           <IconButton

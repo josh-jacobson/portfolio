@@ -19,6 +19,20 @@ const Footer = () => (
         />
       </Link>
       <Link
+        href="https://music.apple.com/us/artist/josh-jacobson/364304039"
+        title="Apple Music"
+        icon="apple"
+        isExternal
+      >
+        <IconButton
+          aria-label="Apple Music"
+          icon="apple"
+          size="lg"
+          color="gray.500"
+          variant="ghost"
+        />
+      </Link>
+      <Link
         href="https://www.instagram.com/joshjacobsongs/"
         title="Instagram"
         icon="instagram"
@@ -27,6 +41,20 @@ const Footer = () => (
         <IconButton
           aria-label="Instagram"
           icon="instagram"
+          size="lg"
+          color="gray.500"
+          variant="ghost"
+        />
+      </Link>
+      <Link
+        href="https://www.instagram.com/joshjacobsongs/"
+        title="TikTok"
+        icon="tiktok"
+        isExternal
+      >
+        <IconButton
+          aria-label="TikTok"
+          icon="tiktok"
           size="lg"
           color="gray.500"
           variant="ghost"

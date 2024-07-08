@@ -5,10 +5,6 @@
   </url>
 
   <url>
-    <loc>https://joshjacobsonmusic.com/collaborations</loc>
-  </url>
-
-  <url>
     <loc>https://joshjacobsonmusic.com</loc>
   </url>
 
@@ -26,5 +22,13 @@
 
   <url>
     <loc>https://joshjacobsonmusic.com/shop</loc>
+  </url>
+
+  <url>
+    <loc>https://joshjacobsonmusic.com/subscribe</loc>
+  </url>
+
+  <url>
+    <loc>https://joshjacobsonmusic.com/tour</loc>
   </url>
 </urlset>

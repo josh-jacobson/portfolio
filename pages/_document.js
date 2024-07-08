@@ -22,6 +22,8 @@ class MyDocument extends Document {
             name="google-site-verification"
           />
           <script src="https://gumroad.com/js/gumroad.js"></script>
+          <script src="https://widget-app.songkick.com/injector/8549484"></script>
+
           <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
           <link href="/static/favicons/site.webmanifest" rel="manifest" />
           <link
