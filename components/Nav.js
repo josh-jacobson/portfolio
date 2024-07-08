@@ -35,7 +35,6 @@ const Nav = () => {
         flexDirection="row"
         justifyContent="space-between"
         alignItems="center"
-        maxWidth="900px"
         width="100%"
         bg={navBgColor[colorMode]}
         as="nav"
@@ -46,10 +45,10 @@ const Nav = () => {
       >
         <NextLink href="/" passHref>
             <IconButton
-            aria-label="jj-logo"
-            href="/"
-            icon={"jj_circle_logo"}
-            className="nav-logo"
+              aria-label="jj-logo"
+              href="/"
+              icon={"jj_circle_logo"}
+              className="nav-logo"
             />
         </NextLink>
         <Box>

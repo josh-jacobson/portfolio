@@ -41,13 +41,13 @@ const Playlists = () => {
           justifyContent="center"
           alignItems="flex-start"
           m="0 auto 4rem auto"
-          maxWidth="700px"
+          maxWidth="1200px"
         >
           <Flex
             flexDirection="column"
             justifyContent="flex-start"
             alignItems="flex-start"
-            maxWidth="700px"
+            maxWidth="1200px"
           >
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
               Playlists
@@ -60,8 +60,8 @@ const Playlists = () => {
                 </Text>
                 <iframe
                   src="https://open.spotify.com/embed/playlist/2T2SbLaLSllGzhdcQMbyTW"
-                  width="300"
-                  height="380"
+                  width="400"
+                  height="420"
                   frameBorder="0"
                   allowtransparency="true"
                   allow="encrypted-media"
@@ -73,8 +73,8 @@ const Playlists = () => {
                 </Text>
                 <iframe
                   src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
-                  width="300"
-                  height="380"
+                  width="400"
+                  height="420"
                   frameBorder="0"
                   allowtransparency="true"
                   allow="encrypted-media"

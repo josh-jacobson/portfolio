@@ -45,13 +45,13 @@ const Music = () => {
           justifyContent="center"
           alignItems="flex-start"
           m="0 auto 4rem auto"
-          maxWidth="700px"
+          maxWidth="1200px"
         >
           <Flex
             flexDirection="column"
             justifyContent="flex-start"
             alignItems="flex-start"
-            maxWidth="700px"
+            maxWidth="1200px"
           >
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
               Shop
