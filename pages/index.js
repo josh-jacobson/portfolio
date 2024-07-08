@@ -1,10 +1,15 @@
 import React from "react";
 import { useColorMode, Heading, Text, Flex, Stack } from "@chakra-ui/core";
 import Container from "../components/Container";
+import LogoType from "../components/LogoType";
 import ProjectCard from "../components/ProjectCard";
 
 const Index = () => {
   const { colorMode } = useColorMode();
+  const primarytextColor = {
+    light: "black",
+    dark: "white",
+  };
   const secondaryTextColor = {
     light: "gray.700",
     dark: "gray.400",
@@ -18,24 +23,32 @@ const Index = () => {
         justifyContent="center"
         alignItems="flex-start"
         m="0 auto 4rem auto"
-        maxWidth="1200px"
+        maxWidth="1000px"
       >
-        <Flex
+        {/* <Flex
           flexDirection="column"
           justifyContent="flex-start"
           alignItems="flex-start"
-          maxWidth="1200px"
+          maxWidth="1000px"
         >
           <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
             Josh Jacobson
           </Heading>
-        </Flex>
+
+          
+        </Flex> */}
+
+        <LogoType alt="Josh Jacobson" width="100%" fill={primarytextColor[colorMode]}/>
+
+        <img src="/josh.jpeg"/>
+
+        
 
         <Flex
           flexDirection="column"
           justifyContent="flex-start"
           alignItems="flex-start"
-          maxWidth="1200px"
+          maxWidth="1000px"
           mt={8}
         >
           <Text color={secondaryTextColor[colorMode]} mb={4}>

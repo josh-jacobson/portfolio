@@ -74,7 +74,7 @@ const Music = () => {
               maxWidth="700px"
             >
               <Text color={secondaryTextColor[colorMode]} mb={4}>
-                Available on all streaming services and Bandcamp. Listen on Spotify here:
+                All releases available on Spotify, Apple Music and other streaming services.
               </Text>
               <SimpleGrid columns={{ sm: 1, md: 2 }} spacing={10}>
                 <Box>
