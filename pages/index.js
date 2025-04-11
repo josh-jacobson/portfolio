@@ -40,7 +40,7 @@ const Index = () => {
 
         <LogoType alt="Josh Jacobson" width="100%" fill={primarytextColor[colorMode]}/>
 
-        <img src="/josh.jpeg"/>
+        <img src="/josh_profile.jpg"/>
 
         
 
