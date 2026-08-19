@@ -8,6 +8,8 @@ My main website, built with:
 
 and hosted on Vercel at joshjacobsonmusic.com. Shouts out to Lee Robinson for inspiring the initial design and application structure.
 
+Upgraded in 2025 to use Node v22.14.0 after Vercel deprecated Node 18
+
 Local server on port 3000:
 npx next dev
 

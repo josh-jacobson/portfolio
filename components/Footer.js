@@ -33,7 +33,7 @@ const Footer = () => (
         />
       </Link>
       <Link
-        href="https://www.instagram.com/joshjacobsongs/"
+        href="https://www.instagram.com/joshjacobsonmusic/"
         title="Instagram"
         icon="instagram"
         isExternal

@@ -53,13 +53,12 @@ const Playlists = () => {
               Playlists
             </Heading>
             <SimpleGrid columns={{sm:1, md:2}} spacing={10}>
-
               <Box>
                 <Text color={secondaryTextColor[colorMode]} mb={4}>
-                  beautiful piano music
+                  Josh Jacobson : Selects
                 </Text>
                 <iframe
-                  src="https://open.spotify.com/embed/playlist/2T2SbLaLSllGzhdcQMbyTW"
+                  src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
                   width="400"
                   height="420"
                   frameBorder="0"
@@ -69,10 +68,10 @@ const Playlists = () => {
               </Box>
               <Box>
                 <Text color={secondaryTextColor[colorMode]} mb={4}>
-                  beautiful dance music
+                  beautiful piano music
                 </Text>
                 <iframe
-                  src="https://open.spotify.com/embed/playlist/5Q3RDgmqchjN1h2vzx8xWw"
+                  src="https://open.spotify.com/embed/playlist/2T2SbLaLSllGzhdcQMbyTW"
                   width="400"
                   height="420"
                   frameBorder="0"
